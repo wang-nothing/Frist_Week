@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dianji"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_tv"
+        android:textSize="40sp"
+        android:text="Good Morning"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#21c951"
+        android:layout_marginTop="50dp"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/main_simple"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"
+        app:roundAsCircle="true"
+        app:actualImageScaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>
